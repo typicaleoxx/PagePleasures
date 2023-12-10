@@ -1,0 +1,115 @@
+.share {
+    background-color: lightskyblue;
+}
+
+
+
+.posted a {
+    color: rgb(196, 5, 5);
+    width: bold;
+    font-size: medium;
+
+}
+
+header a {
+
+    color: rgb(3, 18, 160);
+}
+
+footer {
+    background-color: rgb(233, 207, 191);
+}
+
+footer a {
+    color: rgb(70, 165, 102);
+}
+
+header {
+    background-color: rgb(241, 209, 167);
+}
+
+a:hover {
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+input[type="submit"]:hover {
+    color: rgb(238, 238, 238);
+    background-color: rgb(52, 19, 170);
+
+}
+
+button:hover {
+    background-color: darksalmon;
+    color: black;
+}
+
+.post {
+    background-color: #31B8DC;
+}
+
+button:active {
+    background-color: rgba(24, 184, 37, 0.877);
+}
+
+section[class="posted"] {
+    background-color: beige;
+}
+
+header a {
+    color: black;
+}
+
+section {
+    width: auto;
+}
+
+section[class="posted"] {
+    border-style: dashed;
+    border-color: rgb(179, 141, 94);
+    border-width: 1.75px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding-top: 5px;
+
+}
+
+main {
+    width: auto;
+}
+
+header {
+    width: auto;
+}
+
+header input[type="text"] {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(192, 157, 112);
+}
+
+header input[type="submit"] {
+    border-radius: 4px;
+}
+
+main a {
+    padding-top: 30px;
+    padding-left: 4px;
+}
+
+h3 {
+    padding-left: 20px;
+    padding-right: 230PX;
+}
+
+button.share {
+    border-radius: 5px;
+}
+
+nav {
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
+}

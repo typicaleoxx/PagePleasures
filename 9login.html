@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="8home.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <a href="file:///C:/Users/DELL/OneDrive/Web%20development/pagepleasures/8home.html">Home</a>
+            &nbsp; <a href="file:///C:/Users/DELL/OneDrive/Web%20development/pagepleasures/8home.html">My Feed</a>
+            &nbsp;<a href="file:///C:/Users/DELL/OneDrive/Web%20development/pagepleasures/8home.html">Explore</a>
+            &nbsp;<a href="notifications">Notifications</a>
+            &nbsp; <input type="text" class="search" id="search" placeholder="Search PagePleasures">
+            &nbsp; <input type="submit" class="search" name="search" id="search" value="Search">
+            &nbsp; <a href="file:///C:/Users/DELL/OneDrive/Web%20development/pagepleasures/9login.html">LogIn</a>
+        </nav>
+        <hr>
+    </header>
+    <form action="login/">
+        <fieldset>
+            <legend>User Login</legend>
+            <table>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" name="username" id="username" class="infor"
+                            placeholder="enter your username or email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="password" class="info"
+                            placeholder="enter your password"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" name="login" id="login" class="login" value="Login"></td>
+                    <td><a href="forgot/" class="forgot">Forgot password?</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="google/account/">Google</a>
+                    </td>
+                    <td><a href="icloud/account">iCloud</a></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <h2>
+        <center>OR</center>
+    </h2>
+    <form action="signup">
+        <fieldset>
+
+            <legend>SignUp</legend>
+
+            <table>
+                <tr>
+                    <td><label for="firstname" class="firstname">Firstname</label></td>
+                    <td><input type="text" name="firstname" id="firstname" class="firstname"
+                            placeholder="Enter your firstname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname" class="lastname">Lastname</label></td>
+                    <td><input type="text" name="lastname" id="lastname" class="lastname"
+                            placeholder="Enter your lastname"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob" class="dob">Date of Birth</label>
+                    </td>
+                    <td><input type="date" name="dob" id="dob" class="dob"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender" id="gender" class="gender">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="gender" value="f">Female
+                        <input type="radio" name="gender" id="gender" value="m">Male
+                        <input type="radio" name="gender" id="gender" value="o">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="username" class="username">Username</label>
+                    </td>
+                    <td>
+                        <input type="text" name="username" id="username" placeholder="Enter username" class="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" placeholder="Enter password" name="password" id="password"
+                            class="passwprd"></td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" name="create" id="create" class="create" value="Create Account">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <footer> Copyright by The Sneha Lama
+    </footer>
+</body>
+
+</html>
